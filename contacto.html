@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <section>
+    <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li> 
+            <a href="contenido.html">Contenido</a>
+        </li>
+        <li>
+            <a href="contacto.html">Coctacto</a>
+        </li>
+    </ul>
+</section>
+        <section>
+            <div>
+            <form action="index.html" method="get">
+                <!-- number se usa para ingresar numero-->
+                 <!--max y min se usa para poner un limite de maximo y minimo-->
+                <label for="edad">Edad</label>
+                <input type="number" value="0" id="edad" name="numero" step="0.5" min="0" max="10" required
+                >
+            </div>
+             <div>
+                <!--password para ingresar una contraseña-->
+                <!--placeholder se usa para dar una idea de lo que se puede ingresar-->
+                <label for="contrasena">contraseña</label>
+                <input type="password" placeholder="abc#123" id="contrasena"> 
+             </div>
+             <div>
+                <!--email se usa para ingresar un correo electronico-->
+                <label for="correo">Correo</label>
+                <input type="email" required> 
+             </div>
+             <div>
+                <!--tel se usa para ingresar numero telefonico-->
+                <label for="">Telefono</label>
+                <input type="tel">
+             </div>
+             <div>
+                <!--date se usa para ingresar una fecha-->
+                <label for="fecha">Fecha</label>
+                <input type="date" required>
+             </div>
+             <div>
+                <!--time se usa para ingresar una hora-->
+                <label for="hora">Hora</label>
+                <input type="time">
+             </div>
+             <div>
+                <!--datetime se usa para ingresar la fecha y la hora-->
+                <label for="">Fecha y hora</label>
+                <input type="datetime">
+             </div>
+             <div>
+                <!--datetime-local se usa para la hora y fecha local-->
+                <label for="">Fecha y hora local</label>
+                <input type="datetime-local">
+             </div>
+             <div>
+                <!--month se usa para ingresar el mes-->
+                <label for="">Mes</label>
+                <input type="month">
+             </div>
+             <div>
+                <!--week se usa para ingresar la semana-->
+                <label for="">Semana</label>
+                <input type="week">
+             </div>
+             <div>
+                <!--Url es para escribir la direcion-->
+                <label for="url">Url</label>
+                <input type="url">
+             </div>
+             <div>
+                <!--search se usa para buscar-->
+                <label for="">Buscar</label>
+                <input type="search">
+             </div>
+             <div>
+                <!--Text se usa para ingresar un texto-->
+                <label for="">Texto</label>
+                <input type="text">
+             </div>
+             <div>
+                <!--action se usa para indicar el destino del envio del formulario-->
+                <label for="">Accion</label>
+                <input type="action">
+             </div>
+             <div>
+                <!--file se usa para subir un archivo-->
+                <label for="archivo">Archivo</label>
+                <input type="file">
+             </div>
+             <div>
+                <!--color se usa para seleccionar el color que quiera-->
+                <label for="color">Color</label>
+                <input type="color">
+             </div>
+             <div>
+                <!--image se usa para mostrar uuna imagen-->
+                <label for="">Imagen</label>
+                <input type="image">
+             </div>
+             <div>
+                <!--Radio se usa para crear botones de opcion-->
+                <label for="">Radio</label>
+                <input type="radio">
+             </div>
+             <div>
+                <!--Range se usa para establecer un rango-->
+                <label for="">Rango</label>
+                <input type="range">
+             </div>
+             <div>
+                <!--checkbox se usa para verificar-->
+                <label for="checkbox">Verificado</label>
+                <input type="checkbox">
+             </div>
+             <div>
+                <!--hidden se usa para un campo oculto-->
+                <label for="hidden">Oculto</label>
+                <input type="hidden">
+             </div>
+             <div>
+                <label for="ciudad">Seleccione la ciudad</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="">Seleccione</option>
+                    <option value="1">Bucaramanga</option>
+                    <option value="2">Giron</option>
+                </select>
+             </div>
+             <div>
+                <label for="areadetexto">Mensaje</label>
+                <textarea name="mensaje" id="areadetexto"></textarea>
+             </div>
+             <div>
+                <!--reset se usa para reiniciar o reestablecer-->
+                <label for=""></label>
+                <input type="reset">
+             </div>
+
+             <!--button crea un boton que se puede usar para varias cosas como enviar datos-->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+</body>
+</html>
